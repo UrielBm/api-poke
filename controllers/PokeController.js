@@ -16,7 +16,7 @@ class PokeController {
             return pokemon.disabled == false;
           })
           .map(({ id, name, img, height, weight, type }) => {
-            return { id, name, img, height, weight, type, disabled };
+            return { id, name, img, height, weight, type };
           });
         res.status(200).json(datalist);
       } catch (e) {

@@ -1,4 +1,3 @@
-const { model } = require("mongoose");
 const Pokemon = require("../Models/PokemonModel");
 
 class PokeService {
